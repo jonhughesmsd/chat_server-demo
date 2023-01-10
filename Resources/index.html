@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CS6011 - Chat Client</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="title" id="title">
+        <h1>Join a Chat Room</h1>
+    </div>
+</header>
+<main class="main" id="main">
+        <div class="flex room-info" id="room-info">
+            <div class="room-info__user">
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username" size="10">
+            </div>
+            <div class="room-info__room">
+                <label for="roomname">Room Name:</label>
+                <input type="text" id="roomname" name="roomname" size="10">
+            </div>
+            <p class="btn" id="btn-join">Enter Room</p>
+        </div>
+
+
+<!--    <div class="container">-->
+<!--        <div class="chat-members accordian">-->
+<!--            <p>Users In Room <i class="fa fa-chevron-down"></i></p>-->
+<!--            <div class="panel" id="chat-members">-->
+<!--                <p>User1</p>-->
+<!--                <p>User2</p>-->
+<!--                <p>User3</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="chat-box" id="chat-box">-->
+<!--            <div class="msg-container">-->
+<!--                <div class="msg msg-left">-->
+<!--                    <div class="avatar">-->
+<!--                        <p class="avatar-text">a</p>-->
+<!--                    </div>-->
+<!--                    <div class="message">-->
+<!--                        <div class="message-header">-->
+<!--                            <p class="username">asdf:</p>-->
+<!--                            <p class="timestamp">2018-12-10T13:45:00.000Z</p>-->
+<!--                        </div>-->
+<!--                        <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rem-->
+<!--                            quia eius corrupti beatae in repellendus, deserunt dolorum optio fugit tempore ducimus-->
+<!--                            quas odio repellat.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="msg-container">-->
+<!--                <div class="msg msg-right">-->
+<!--                    <div class="avatar">-->
+<!--                        <p class="avatar-text">q</p>-->
+<!--                    </div>-->
+<!--                    <div class="message">-->
+<!--                        <div class="flex message-header">-->
+<!--                            <div class="message-header">-->
+<!--                                <p class="username">qwer:</p>-->
+<!--                                <p class="timestamp">2018-12-10T13:45:00.000Z</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <p class="message-text">Lorem ipsum</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="msg-container">-->
+<!--                <div class="msg msg-left">-->
+<!--                    <div class="msg">-->
+<!--                        <div class="avatar">-->
+<!--                            <p class="avatar-text">a</p>-->
+<!--                        </div>-->
+<!--                        <div class="message">-->
+<!--                            <div class="message-header">-->
+<!--                                <p class="username">asdf:</p>-->
+<!--                                <p class="timestamp">2018-12-10T13:45:00.000Z</p>-->
+<!--                            </div>-->
+<!--                            <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus-->
+<!--                                rem quia eius corrupti beatae in repellendus, deserunt dolorum optio fugit tempore-->
+<!--                                ducimus quas odio repellat.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="msg-container">-->
+<!--                <div class="msg msg-right">-->
+<!--                    <div class="avatar">-->
+<!--                        <p class="avatar-text">q</p>-->
+<!--                    </div>-->
+<!--                    <div class="message">-->
+<!--                        <div class="flex message-header">-->
+<!--                            <div class="message-header">-->
+<!--                                <p class="username">qwer:</p>-->
+<!--                                <p class="timestamp">2018-12-10T13:45:00.000Z</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus-->
+<!--                            rem quia eius corrupti beatae in repellendus, deserunt dolorum optio fugit tempore-->
+<!--                            ducimus quas odio repellat.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--        <div class="message-container">-->
+<!--            <p>Message:</p>-->
+<!--            <div class="message-input flex">-->
+<!--                <textarea name="message" id="message" rows="1"></textarea>-->
+<!--                <div class="buttons">-->
+<!--                    <p class="btn" id="btn-send">Send</p>-->
+<!--                    <p class="btn" id="btn-leave">Leave</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+</main>
+
+
+<script type="text/javascript" src="chatclient.js"></script>
+</body>
+</html>
